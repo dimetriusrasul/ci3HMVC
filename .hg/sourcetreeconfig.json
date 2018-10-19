@@ -1,0 +1,30 @@
+{
+  "$id": "7",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2018-10-18T16:22:25.8613273+07:00",
+  "LastUsedView": 1,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "RemoteProjectLinks": [
+    {
+      "$id": "8",
+      "BaseUrl": "https://www.bitbucket.org",
+      "Identifier": "wiredesignz/codeigniter-modular-extensions-hmvc",
+      "RemoteName": "default",
+      "Type": 1,
+      "Username": "dimmy27",
+      "CloneUrl": null,
+      "DisplayName": "default: https://www.bitbucket.org"
+    }
+  ],
+  "SidebarExpandedItems": [
+    "File Status",
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": []
+}

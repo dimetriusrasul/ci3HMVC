@@ -18,6 +18,7 @@
 	<table id="example" class="display" cellspacing="0" width="100%">
 		<thead>
 			<tr>
+				<th>No.</th>
 				<th>Name</th>
 				<th>Position</th>
 				<th>Office</th>
@@ -28,6 +29,7 @@
 		</thead>
 		<tfoot>
 			<tr>
+				<th>No.</th>
 				<th>Name</th>
 				<th>Position</th>
 				<th>Office</th>
@@ -37,39 +39,21 @@
 			</tr>
 		</tfoot>
 		<tbody>
+			<?php $no=1; ?>
+			<?php foreach($grid as $row) :?>
 			<tr>
-				<td>Tiger Nixon</td>
-				<td>System Architech</td>
-				<td>Edingurgh</td>
-				<td>61</td>
-				<td>2011/04/25</td>
-				<td>$320,800</td>
+				<td><?php echo $no; ?></td>
+				<td><?php echo $row->name; ?></td>
+				<td><?php echo $row->position; ?></td>
+				<td><?php echo $row->office; ?></td>
+				<td><?php echo $row->age; ?></td>
+				<td><?php echo $row->start_date; ?></td>
+				<td><?php echo $row->salary; ?></td>
 			</tr>
-			<tr>
-				<td>Garrett Winters</td>
-				<td>Accountant</td>
-				<td>Tokyo</td>
-				<td>63</td>
-				<td>2011/07/25</td>
-				<td>$170,750</td>
-			</tr>
-			<tr>
-				<td>Ashton</td>
-				<td>Junior Technical Author</td>
-				<td>San Francisco</td>
-				<td>66</td>
-				<td>2009/01/12</td>
-				<td>$86,000</td>
-			</tr>
-			<tr>
-				<td>Cedric Kelly</td>
-				<td>Senior Javascript Developer</td>
-				<td>Edingurgh</td>
-				<td>22</td>
-				<td>2012/03/29</td>
-				<td>$433,800</td>
-			</tr>
+			<?php $no++; ?>
+			<?php endforeach;?>
 		</tbody>
 	</table>
+	<?php echo($row->name); ?>
 </body>
 </html>
